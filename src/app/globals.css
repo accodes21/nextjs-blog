@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.sign-out{
-    background-color: #ffe600;
+.sign-out,
+.sign-in{
+    background-color: #FFC107;
     padding: .7em;
     border-radius: 10px;
 }
-.sign-out:hover{
+.sign-out:hover,
+.sign-in:hover{
     background-color: #ffd500;
     transition: all;
 }
