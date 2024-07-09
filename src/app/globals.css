@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sign-out{
+    background-color: #ffe600;
+    padding: .7em;
+    border-radius: 10px;
+}
+.sign-out:hover{
+    background-color: #ffd500;
+    transition: all;
+}
+.sign-p{
+    margin-top: 1em;
+}
