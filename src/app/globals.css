@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,4 +16,20 @@
 }
 .sign-p{
     margin-top: 1em;
+}
+.title{
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body{
+    transition-property: opacity background-color transform filter;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.page-transition{
+    opacity: 0;
+    background-color: black;
+    transform: translateY(40px);
+    filter: blur(12px);
 }
