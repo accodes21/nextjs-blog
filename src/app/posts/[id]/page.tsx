@@ -15,7 +15,9 @@ const Post = async ({ params }: { params: { id: string } }) => {
 
   return (
     <main className="text-center pt-32 px-5">
-      <h1 className="text-4xl md:text-5xl font-semibold mb-5">{post.title}</h1>
+      <h1 className="text-4xl md:text-5xl font-semibold mb-5 title">
+        {post.title}
+      </h1>
       <p className="max-w-[700px] mx-auto">{post.body}</p>
     </main>
   );
@@ -24,7 +26,9 @@ const Post = async ({ params }: { params: { id: string } }) => {
 const Loading = () => {
   return (
     <main className="text-center pt-32 px-5">
-      <h1 className="text-4xl md:text-5xl font-semibold mb-5">Loading...</h1>
+      <h1 className="text-4xl md:text-5xl font-semibold mb-5 title">
+        Loading...
+      </h1>
     </main>
   );
 };
