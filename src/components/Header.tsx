@@ -24,15 +24,9 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="flex justify-between items-center py-4 px-7 border-b">
-      <Link href="/">
-        <Image
-          src="/vercel.svg"
-          alt="logo"
-          width={56}
-          height={56}
-          className="w-[56px] h-[56px]"
-        />
+    <header className="flex justify-between items-center py-6 px-7 border-b backdrop-blur-sm backdrop-filter">
+      <Link href="/" className="title font-bold text-xl">
+        Blogger&apos;s Hub
       </Link>
 
       <nav>

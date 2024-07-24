@@ -16,9 +16,13 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-5 title">
             Create post
           </h1>
+          <p>
+            Welcome, {user?.displayName}. <br />
+            Convey your thoughts to others using this blog.
+          </p>
           <form
             action={createPost}
-            className="max-w-[400px] mx-auto my-10 gap-2 flex flex-col"
+            className="max-w-[400px] mx-auto my-6 gap-2 flex flex-col"
           >
             <input
               type="text"
